@@ -1,6 +1,8 @@
 기본적인 환경설정은 되어있기 때문에 바로 프로젝트 생성
 
+```javascript
 react-native init ReactNatieTodo
+```
 
 ---
 
@@ -8,19 +10,25 @@ react-native init ReactNatieTodo
 
 오류에서 시키는대로 pod install 실행
 
+```javascript
 cd ios
 pod install
+```
 
 ---
 
 오류 내용과 똑같이 했지만, 실행이 되지 않아 레포 업데이트를 진행한 후, pod install 을 진행했다.
 
+```javascript
 pod install --repo-update
 pod install
+```
 
 ---
 
 다시 프로젝트 폴더로 돌아가서 프로젝트 실행
 
+```javascript
 cd ..
 react-native run-ios
+```
